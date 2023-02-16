@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(100, 96, 96);
+    color: rgb(27, 27, 95);
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 170px;
+}
+header nav {
+    float: right;
+}
+h1 {
+    font: weight 1100px;;
+    text-align: center;
+    margin-top: 40px;
+}
+#lio {
+    color: rgb(100, 96, 96);
+}
+.navbar li {
+    display: flex;
+    flex-direction: row;
+    
+
+    
+}   
+.navbar a {
+    display: flex;
+    font-size: 18px;
+    color: rgb(48, 48, 128);
+    padding: 10px;
+    font-weight: bold;
+}
+    
+img {
+    
+    height: 425px;
+    width: 325px;
+    margin-left: 15px;
+    border-radius: 12px;
+    border-style: dashed;
+    border-width: 14px;
+}
+#Photo {
+    
+}
+#fig {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-left: 45px;
+    color: whitesmoke;
+}
+.About-Me {
+    display: flex;
+    font-size: 16px;
+    border: 10px solid rgb(48, 48, 110);
+    width: 700px;
+    height: auto;
+    color: whitesmoke;
+}
+.My-Projects {
+    display: flex;
+    font-size: 16px;
+    border: 10px solid rgb(48, 48, 110);
+    margin-top: 20px;
+    color: whitesmoke;
+    width: 700px;
+    height: auto;
+}
+.Me {
+    width: 250px;
+    height: 350px;
+
+}
+.Projects {
+    width: 250px;
+    height: 350px;
+}
+    
+
+
+
+
+    
+    
+    
+    
+    
+
+
+    
