@@ -8,47 +8,74 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+
 
    <header>
       <h1>"Welcome To My Portfo<span id="lio">lio</span>"</h1>
 
       <nav class="navbar">
         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">Contact Me</a></li>    
+            <li><a href="#About-Me">About Me</a></li>
+            <li><a href="#My-Projects">My Projects</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>    
         </ul>
       </nav>
     </header>
 
+<body>
 
     <figure id="Photo">
       <img class="Tread" src="./Portfolio pic.jpg" alt="my pic"/>
       <figcaption id="fig">"Edwin B.Treadwell III"👋🏾 </figcaption>
     </figure><br> 
+    
+    <div class="sections">
 
-    <section class="About-Me">
-        <img class="Me" src="./Aboutme pic.jpg" alt="about me pic" class="float-left"/>
+    
+    <section class="section" id="About-Me">
+        <img class="me" src="./Aboutme pic.jpg" alt="about me pic"/>
+        <div class="about-info">
         <h2>"About Me"</h2>
+        <div class="ps">
         <p><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt rerum ratione officiis illum quae dolorem voluptate! Nesciunt ipsa adipisci, iure, vel dicta fugiat repellat doloribus numquam optio recusandae quia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere, pariatur assumenda et dolore odio iste rem cum provident corporis quaerat eaque suscipit incidunt sapiente magni, in maxime cupiditate. Iure!</p>
-        
-    
+        <p>Commodi facere, pariatur assumenda et dolore odio iste rem cum provident corporis quaerat eaque suscipit incidunt sapiente magni, in maxime cupiditate. Iure!</p>
+      </div>
+    </div>
     </section>
 
-    <section class="My-Projects">
-        <img class="Projects" src="./MyProjects img.png" alt="image of project worker" class="float-left"/>
+    <section class="section" id="My-Projects">
+        <img class="Projects" src="./MyProjects img.png" alt="image of project worker"/>
+        <div class="Project-title">
         <h2>"My Projects"</h2>
-        <p><br> ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste officia in quia atque sed quibusdam ad nihil magni quod laudantium aspernatur ut harum earum nobis possimus, quae, veritatis explicabo?</p>
+        </div>
+        <a href="https://github.com/Edtread3/Code-refactoring-weekone" target="_blank">
+        <figure>   
+          <img class="Project" src="./Project link img.jpg" alt="image of week 1 challenge"/>
+        </a>
+        <figcaption id="fig-two"> More Coming Soon!👍🏾</figcaption>
+        </figure>
+      
 
-
-
+          
     </section>
-
-
-
-
-    
+  
+    </div>
 </body>
+<footer>
+  <div class="footer-content" id="contact-me">
+    <h3>"Here are Ways to get in touch with me."</h3>
+    <ul class="contacts">
+       <li><a href="#">LinkedIn</a></li>
+       <li><a href="#">Facebook</a></li>
+       <li><a href="#">Twitter</a></li>
+       <li><a href="edtread3@gmail.com">Gmail</a></li>
+
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>copyright &copy;2023 My Portfolio. designed by <span id="ed">ED</span>win</p>
+  </div>
+
+</footer>
+
 </html>

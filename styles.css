@@ -7,40 +7,45 @@
 body {
     display:flex;
     flex-direction: column;
+    align-items:center;
     background-color:rgb(100, 96, 96);
     color: rgb(27, 27, 95);
 }
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: whitesmoke;
     width: 100%;
     min-height: 170px;
-}
-header nav {
-    float: right;
 }
 h1 {
     font: weight 1100px;;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 200px;
 }
 #lio {
-    color: rgb(100, 96, 96);
+    color: rgb(5, 181, 204);
 }
-.navbar li {
+.navbar ul {
     display: flex;
-    flex-direction: row;
+    list-style: none;
     
 
     
 }   
 .navbar a {
     display: flex;
+    align-items: flex-end;
     font-size: 18px;
     color: rgb(48, 48, 128);
     padding: 10px;
     font-weight: bold;
+}
+.navbar li:hover a{
+    color: rgb(5, 181, 204);
 }
     
 img {
@@ -49,10 +54,13 @@ img {
     width: 325px;
     margin-left: 15px;
     border-radius: 12px;
+    border-color:whitesmoke ;
     border-style: dashed;
     border-width: 14px;
 }
-#Photo {
+#fig img {
+    display: flex;
+    align-items: center;
     
 }
 #fig {
@@ -61,35 +69,123 @@ img {
     margin-left: 45px;
     color: whitesmoke;
 }
-.About-Me {
+#About-Me {
+    text-align: center;
+    color: rgb(5, 181, 204);
+}
+.about-info {
+    text-align: center;
+
+}
+.ps {
+    text-align: justify;
+    padding: 7px;
+    color: whitesmoke;
+
+}
+#My-Projects {
+    color: rgb(5, 181, 204);
+}
+.Project {
+    width: 240px;
+    height: 220px;
+    border-color:rgb(100, 96, 96);
+    
+}
+.Project-title {
+    align-items: center;
+    margin-left: 15px;
+}
+#fig-two {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.sections{
+    display: flex;
+}
+.section {
     display: flex;
     font-size: 16px;
     border: 10px solid rgb(48, 48, 110);
-    width: 700px;
-    height: auto;
-    color: whitesmoke;
-}
-.My-Projects {
-    display: flex;
-    font-size: 16px;
-    border: 10px solid rgb(48, 48, 110);
-    margin-top: 20px;
+    margin: 10px;
     color: whitesmoke;
     width: 700px;
     height: auto;
 }
-.Me {
+.me {
     width: 250px;
     height: 350px;
 
 }
+
+
 .Projects {
     width: 250px;
     height: 350px;
 }
-    
+footer{
+    background-color: whitesmoke;
+    height: auto;
+    width: 100vw;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-bottom: 35px;
+    color: rgb(48, 48, 110);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contacts{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    align-items: center;
+
+}
+.contacts li{
+    display: flex;
+    margin-left:  14px;
+    text-decoration: none;
+    color:rgb(27, 27, 95);
+
+}
+.contacts li:hover a{
+    color: rgb(5, 181, 204);
+}    
+.footer-bottom p{
+    color: black;
+    margin-left: 20px;
+    font-size: larger;
+}
+#ed {
+    color: rgb(5, 181, 204);
+    font-size: x-large;
+}
 
 
+
+
+@media (max-width: 1363px) {
+    body {
+        display: flex;
+        background-color: rgb(27, 27, 95);
+        color:rgb(100, 96, 96);
+    }
+   .sections {
+        display: flex;
+        flex-direction:column ;
+    }
+    h1 {
+        color:black;
+    }
+
+
+}
 
 
     
