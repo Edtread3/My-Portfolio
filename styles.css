@@ -1,0 +1,249 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 222, 222);
+    width: 100%;
+    min-height: 185px;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+#lio {
+    color:rgb(112, 184, 196);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    
+
+    
+}   
+.navbar a {
+    display: flex;
+    align-items: flex-end;
+    font-size: 22px;
+    color: rgb(82, 81, 81);
+    padding: 10px;
+    font-weight: bold;
+}
+.navbar li:hover a{
+    color: rgb(112, 184, 196);
+}
+
+
+body {
+
+    background-image: url(./blake-connally-B3l0g6HLxr8-unsplash.jpg);
+    background-size: 1450px 900px;
+}
+
+.fig-intro {
+    display: flex;
+    margin: bottom 10px;
+}
+.tread {
+    height: 430px;
+    width: 380px;
+    margin-top: 6px;
+    margin-left: 15px;
+    border-radius: 12px;
+    border-color:rgb(136, 134, 134) ;
+    border-style: dashed;
+    border-width: 8px;
+    align-items:flex-start;
+    
+}
+#fig {
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 12px;
+    color: white;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 14px;
+
+
+}
+
+.section-one {
+    background-color: rgb(160, 157, 157);
+    border:4px solid grey;
+    font-size: 12px;
+    margin: 10px;
+    color: white;
+    width: 340px;
+    min-height: 300px;
+}
+.subtitle {
+    text-align: center;
+
+}
+.me-img {
+    width: 200px;
+    height: 200px;
+
+}
+#About-Me {
+    text-align: center;
+    color:rgb(6, 6, 14);
+    font-size: 24px;
+}
+.ps {
+    text-align: justify;
+    padding: 7px;
+    color:white;
+    font-size: 12px;
+}
+.section-one:hover{
+    color: rgb(112, 184, 196);
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+
+.section-two {
+    background-color: rgb(160, 157, 157);
+    border:4px solid grey;
+    width: 340px;
+    min-height: 300px;
+    margin: 10px;
+}
+#My-Projects {
+    font-size: 22px;
+}    
+#Project-title {
+    align-items: center;
+    margin-left: 15px;
+}
+#fig-two {
+    font-size: 20px;
+    margin-left: 30px;
+}
+.project-img {
+    width:  200px;
+    height: 200px;
+}
+.project-img-two {
+    width: 200px;
+    height: 220px;
+}
+.section-two:hover{
+    color: rgb(112, 184, 196);
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.section-three {
+    background-color: rgb(160, 157, 157);
+    border:4px solid grey;
+    width: 340px;
+    min-height: 300px;
+    margin:10px;
+
+}
+.javascript-img {
+    width: 200px;
+    height: 200px;
+}
+h3 {
+    font-size: 24px;
+    margin-left: 18px;
+}
+.section-three:hover{
+    color: rgb(112, 184, 196);
+    transition:all 0.8s;
+    cursor: pointer;
+}
+
+
+footer{
+
+    background-color: rgb(107, 107, 107);
+    height: auto;
+    width: 100vw;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-bottom: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contacts{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    align-items: center;
+
+}
+.contacts li{
+    display: flex;
+    margin-left:  14px;
+    text-decoration: none;
+    color:rgb(34, 34, 36);
+
+}
+.contacts li:hover a{
+    color: rgb(112, 184, 196);
+}    
+.footer-bottom p{
+    color: black;
+    margin-left: 20px;
+    font-size: larger;
+}
+#ed {
+    color: rgb(112, 184, 196);
+    font-size: x-large;
+}
+
+
+
+
+@media all and (max-width: 1385px) {
+    body {
+        display: flex;
+        background-color: rgb(6, 6, 14);
+        color:rgb(177, 172, 172);
+    }
+   .boxes {
+        flex-direction: column;
+    }
+    h1 {
+        color:black;
+    }
+
+}
+
+
+    
+    
+    
+    
+    
+
+
+    
