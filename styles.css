@@ -44,9 +44,10 @@ h1 {
 
 
 body {
-
+    display: flex;
+    flex-flow: column wrap;
     background-image: url(./blake-connally-B3l0g6HLxr8-unsplash.jpg);
-    background-size: 1450px 900px;
+    background-size: 1430px 875px;
 }
 
 .fig-intro {
@@ -221,9 +222,9 @@ footer{
 }
 
 
+/*responsive layout for labtop screens*/
 
-
-@media all and (max-width: 1385px) {
+@media all and (max-width: 1200px) {
     body {
         display: flex;
         background-color: rgb(6, 6, 14);
@@ -235,11 +236,141 @@ footer{
     h1 {
         color:black;
     }
-
+    header {
+        display: flex;
+        justify-content:left;
+        align-items:flex-end;
+        background-color: rgb(8, 8, 8);
+        width: 150%;
+        min-height: 185px;
+    }
+    h1 {
+        color:rgb(255, 255, 255);
+        margin-left: -4px;
+    }
+    .navbar ul {
+        margin-left: -200px;
+    }
+    .navbar a {
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        font-weight: bold;
+        margin-left: -4px;
+    }
 }
+/*responsive layout for ipad screen*/
 
-
+@media screen and (max-width: 821px) {
+    body {
+        display: flex;
+    }
+    .boxes {
+        flex-direction: column;
+        
+    }
+    .ps {
+        font-size: 22px;
+        color: blue;
+    }
+    .me-img {
+        width: 240px;
+        height: 240px;
     
+    }
+    header {
+        display: flex;
+        justify-content:left;
+        align-items:flex-end;
+        background-color: rgb(8, 8, 8);
+        width: 150%;
+        min-height: 185px;
+    }
+    .navbar ul {
+        margin-left: -200px;
+    }
+    .navbar a {
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        font-weight: bold;
+        margin-left: -4px;
+    }
+    h1 {
+        color:rgb(255, 255, 255);
+        margin-left: -4px;
+    }
+    .subtitle {
+        color: rgb(255, 255, 255);
+    }
+    .project-img-two {
+        width: 236px;
+        height: 230px;
+    }
+    #fig-two {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+    }
+    h3 {
+        color: rgb(255, 255, 255);
+    }
+    footer {
+        width: 100vw;
+    }
+}    
+/* Layout for smaller screens iphone XR and smaller*/
+@media screen and (max-width: 415px) {
+    body {
+        display: flex;
+    }
+    h1 {
+        color: rgb(136, 134, 134);
+        font-size: 18px;
+        margin-left: 30px;
+        
+
+    }
+    .boxes {
+        flex-direction: column;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .fig-intro {
+        display: flex;
+        flex-direction: column;
+        margin: bottom 6px;
+    }
+    #fig {
+        font-size: 22px;
+    }
+    .navbar ul {
+        margin-left: -140px;
+    }
+    .navbar a {
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        font-weight: none;
+        margin-left: -9px;
+    }
+}
+/* Layout for iphone SE and smaller*/    
+@media all and (min-width: 375px) {
+    .navbar ul {
+        margin-left: -160px; 
+    }
+}   
+
+
     
     
     
